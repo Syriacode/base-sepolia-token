@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "deny": [
+      "Read(./.env)",
+      "Read(./.env.*)",
+      "Edit(./.env)",
+      "Edit(./.env.*)",
+      "Read(~/.foundry/keystores/**)",
+      "Edit(~/.foundry/keystores/**)",
+      "Bash(cast wallet private-key *)",
+      "Bash(cast wallet decrypt-keystore *)",
+      "Bash(cast wallet dk *)",
+      "Bash(cast wallet pk *)",
+      "Bash(env)",
+      "Bash(printenv)",
+      "Bash(printenv *)"
+    ],
+    "ask": [
+      "Bash(forge script * --broadcast*)",
+      "Bash(forge create *)",
+      "Bash(cast send *)"
+    ]
+  }
+}
