@@ -56,15 +56,3 @@ forge fmt --check
     `CapExceeded` from an unrelated failure.
   - The deploy script only logs `token.owner()`. It doesn't `require` that the owner is the broadcaster. The
     script test covers this instead.
-
-## How I used Claude Code
-
-### What I delegated
-
-### What I reviewed
-
-### A bug I caught
-
-### Something I changed by hand
-
-### What I'd do differently
